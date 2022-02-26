@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(240, 240, 231);
+}
+
+.container {
+  margin: 0% 15% 0% 15%;
+  opacity: 0;
+}
+
+/* Navbar Form */
+.navv {
+  display: inline;
+}
+
+.nav_form {
+  float: right;
+}
+
+/* .... */
+.main_content {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-column-gap: 2rem;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  grid-column-gap: 2rem;
+}
+
+.item {
+  border: 1px solid;
+  text-align: center;
+}
+
+.item-1 {
+  background-color: rgb(229, 243, 34);
+}
+
+.item-2 {
+  background-color: chartreuse;
+}
+
+.item-3 {
+  background-color: rgb(197, 24, 24);
+}
+
+.transaction {
+  display: grid;
+  grid-template-rows: repeat(3, 4fr);
+  grid-row-gap: 2rem;
+}
+
+.deposit {
+}
+
+.transfer {
+  display: grid;
+  grid-template-columns: 15fr 15fr 4fr;
+  grid-column-gap: 1rem;
+  text-align: center;
+}
+
+.close_account {
+  display: grid;
+  grid-template-columns: 15fr 15fr 4fr;
+  grid-column-gap: 1rem;
+  text-align: center;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  height: 50%;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.deposit {
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 3px;
+}
+
+.withdrawl {
+  background-color: rgb(238, 20, 20);
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 3px;
+}
+
+.deposit_data {
+  color: rgb(0, 145, 0);
+}
+
+.withdraw_data {
+  color: rgb(255, 32, 2);
+}
+
+.intrest_rate {
+  color: green;
+}
